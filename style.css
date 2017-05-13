@@ -1,0 +1,163 @@
+.circle {
+    width: 120px;
+    height: 120px;
+    background: #7fee1d;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+}
+
+.square {
+    width: 120px;
+    height: 120px;
+    background: #f447ff;
+}
+
+.rectangle {
+    width: 150px;
+    height: 120px;
+    background: #4da1f7;
+}
+
+.oval-horizontal {
+    width: 160px;
+    height: 80px;
+    background: #e9337c;
+    -moz-border-radius: 80px/40px;
+    -webkit-border-radius: 80px/40px;
+    border-radius: 80px/40px;
+}
+
+.oval-vertical {
+    width: 80px;
+    height: 160px;
+    background: #e9337c;
+    -moz-border-radius: 160px;
+    -webkit-border-radius: 160px;
+    border-radius: 160px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 140px solid #fcf921;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+}
+
+.triangle-inverse {
+    width: 0;
+    height: 0;
+    border-top: 140px solid #20a3bf;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-right: 140px solid #6bbf20;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-left: 140px solid #ff5a00;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+}
+
+.diamond {
+    width: 120;
+    height: 120;
+    background-color: #1eff00;
+    
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+    -moz-transform-origin: 0% 100%;
+    -webkit-transform-origin: 0% 100%;
+    -ms-transform-origin: 0% 100%;
+    -o-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+
+    margin: -40 0 0 0;
+}
+
+.trapezium {
+    width: 120;
+    height: 0;
+
+    border-bottom: 120px solid #ec3504;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+
+    margin: 80 0 0 0;
+}
+
+.parallelogram {
+    width: 160;
+    height: 100;
+    background-color: #8734f7;
+    transform: skewX(30deg);
+    margin: 0 0 0 30;
+}
+
+.heart {
+    position: relative;
+}
+
+.heart:before .heart:after {
+    content: "";
+    width: 70;
+    height: 115;
+    background: red;
+    position: absolute;
+    left: 70;
+    top: 0;
+
+    border-radius: 50 50 0 0;
+    -webkit-border-radius: 50 50 0 0;
+    -moz-border-radius: 50 50 0 0;
+
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+
+    transform-origin: 0 100%;
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+}
+
+.heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+
+.egg {
+    width: 136px;
+    height: 190px;
+    background: #ffc000;
+    display: block;
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
