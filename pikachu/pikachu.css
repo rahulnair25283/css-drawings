@@ -1,0 +1,97 @@
+body {
+    background: #F4DC26;
+}
+
+.pikachu {
+    position: relative;
+    width: 700px;
+    height: 300px;
+
+    margin: 10% auto;
+}
+
+.pikachu .eye-left {
+    position: absolute;
+    width: 90px;
+    height: 10px;
+
+    top: 80px;
+    left: 200px;
+
+    border-top: 8px solid #222;
+    border-radius: 100%;
+}
+
+.pikachu .eye-right {
+    position: absolute;
+    top: 50px;
+    right: 200px;
+
+    width: 80px;
+    height: 80px;
+
+    background: #000;
+    border-radius: 100%;
+}
+
+
+.pikachu .eye-right .eyeball {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+
+    width: 30px;
+    height: 30px;
+
+    background: #fff;
+    border-radius: 100%;
+}
+
+.pikachu .nose {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+
+    width: 30px;
+    height: 15px;
+    margin: 0 auto;
+
+    background: #000;
+    border-radius: 30%;
+}
+
+.pikachu .dimple {
+    position: absolute;
+    top: 140px;
+
+    width: 70px;
+    height: 70px;
+
+    background: #EE8227;
+    border-radius: 100%;
+}
+
+.pikachu .dimple.left {
+    left: 140px;
+}
+
+.pikachu .dimple.right {
+    right: 140px;
+}
+
+.pikachu .mouth {
+  position: absolute;
+  top: 180px;
+  left: 0;
+  right: 0;
+
+  height: 80px;
+  width: 200px;
+  margin: 0 auto;
+
+  border-bottom: 8px solid #222;
+  border-radius: 100%;
+
+  z-index: 1;
+}

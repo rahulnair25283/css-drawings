@@ -1,0 +1,43 @@
+body {
+    background: #44A1A0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.battery {
+    position: relative;
+
+    width: 500px;
+    height: 200px;
+
+    margin: 50px auto;
+
+    border: 20px solid #000;
+    border-radius: 20px;
+}
+
+.battery .head {
+    position: absolute;
+    left: 510px;
+    top: 35px;
+
+    width: 10px;
+    height: 100px;
+
+    background: #000;
+    border: 15px solid #000;
+    border-radius: 10px;
+}
+
+.battery .level {
+    position: absolute;
+    width: 20px;
+    height: 200px;
+
+    background: #F7DD4C;
+
+    transition: 2s;
+}
+
+.battery:hover .level {
+    width: 500px;
+}
